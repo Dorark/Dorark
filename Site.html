@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Benéfico dos jogos eletrônicos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    p {
+      font-size: 16px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .navigation {
+      margin-bottom: 20px;
+    }
+
+    .navigation a {
+      margin-right: 10px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .navigation a:hover {
+      text-decoration: underline;
+    }
+
+    .back-button {
+      display: block;
+      margin-top: 20px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .back-button:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="navigation">
+     <a href="pagina1.html">Página 1</a>
+    <a href="pagina2.html">Página 2</a>
+    <a href="pagina3.html">Página 3</a>
+  </div>
+
+  <h1>Página Principal</h1>
+  <img src="https://maisplay.com/wp-content/uploads/2018/10/criatividade-nos-games-contribuicao.jpg" alt="https://maisplay.com/wp-content/uploads/2018/10/criatividade-nos-games-contribuicao.jpg">
+  <p>
+    Os jogos eletrônicos têm se mostrado benéficos em diversos aspectos e podem ser uma fonte de entretenimento e aprendizado no dia a dia. Além de proporcionarem diversão, os jogos eletrônicos estimulam o desenvolvimento cognitivo, aprimorando habilidades como raciocínio lógico, tomada de decisão rápida e resolução de problemas complexos.
+    Por meio dos jogos, é possível exercitar a criatividade e a imaginação, já que muitos oferecem ambientes virtuais ricos em detalhes e possibilidades. Além disso, eles podem promover o trabalho em equipe e a socialização, seja por meio de jogos multiplayer online ou em encontros presenciais entre amigos. 
+    Há também jogos específicos que auxiliam no aprendizado de diferentes áreas, como matemática, história, ciências e idiomas. Essas ferramentas educativas tornam o processo de aprendizagem mais interativo e envolvente, despertando o interesse dos jogadores e facilitando a absorção do conteúdo.
+    Outro benefício importante é o estímulo à coordenação motora e ao condicionamento físico, especialmente em jogos que exigem movimentos corporais, como os de realidade virtual ou aqueles que utilizam controles de movimento. Essa prática pode contribuir para a saúde física e o bem-estar geral.  
+    Além disso, os jogos eletrônicos oferecem oportunidades para o desenvolvimento de habilidades emocionais, como paciência, perseverança, resiliência e autocontrole. Jogos com narrativas envolventes também podem proporcionar experiências imersivas, permitindo que os jogadores explorem diferentes emoções e perspectivas.
+    Contudo, é importante ressaltar que o uso dos jogos eletrônicos deve ser equilibrado e consciente. É fundamental estabelecer limites e alternar as atividades, garantindo um estilo de vida saudável e variado. Assim, é possível desfrutar dos benefícios que os jogos eletrônicos oferecem, aproveitando suas vantagens no dia a dia de forma responsável.  </p>
+   <script>
+    var currentPath = window.location.pathname;
+    var currentPage = currentPath.substring(currentPath.lastIndexOf('/') + 1, currentPath.lastIndexOf('.'));
+    if (currentPage !== 'index') {
+      var backButton = document.createElement('a');
+      backButton.href = 'index.html';
+      backButton.textContent = 'Voltar à página principal';
+      backButton.className = 'back-button';
+      document.body.appendChild(backButton);
+    }
+  </script>
+</body>
+</html>     
